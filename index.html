@@ -1,60 +1,66 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Udacity Portfolio Project</title>
-  <link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udacity Portfolio Project</title>
+    <link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
+    <link rel="shortcut icon" href="img/swiss-army-knife-154314_1280.ico">
 </head>
 <body>
     <header>
-        <div class="header_logo_container">
-            <img class="header_logo" src="img/swiss-army-knife-154314_1280.png" alt="foo">
+        <div class="logo">
+            <img src="img/swiss-army-knife-154314_1280.png">
         </div>
-        <div class="header_name">
+        <div class="name">
             <h1>Malcolm S. Britton</h1>
             <h2>Full Stack Developer</h2>
         </div>
     </header>
-    <main>
-        <article>
-            <h2>Portfolio</h2>
-            <div class="portfolio">
-                <a target="_blank" href="https://www.w3schools.com/css/img_fjords.jpg">
-                    <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+    <div class="row">
+        <div class="stack col-1">
+            <div class="stack_box">
+                My Stack
             </div>
-            <div class="portfolio">
-                <a target="_blank" href="https://www.w3schools.com/css/img_fjords.jpg">
-                    <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+            <div class="stack_box">
+                <img src="img/python.png">
             </div>
-            <div class="portfolio">
-                <a target="_blank" href="https://www.w3schools.com/css/img_fjords.jpg">
-                    <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+            <div class="stack_box">
+                <img src="img/Mysql-dolphin-square.svg">
             </div>
-            <div class="portfolio">
-                <a target="_blank" href="https://www.w3schools.com/css/img_fjords.jpg">
-                    <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+            <div class="stack_box">
+                <img src="img/css3_2.png" class="css3">
             </div>
-        </article>
-        <aside>
-            <h2>Technologies</h2>
-            <ul>
-                <li>foo</li>
-                <li>bar</li>
-                <li>baz</li>
-            </ul>
-        </aside>
-    </main>
-    <footer>
-        <h2>the end</h2>
-    </footer>
+            <div class="stack_box">
+                <img src="img/html5_2.png">
+            </div>
+        </div>
+        <div class="the_pic col-2">
+            <img src="img/volunteer.jpeg">
+        </div>
+    </div>
+    <div class="col-3">
+        <h1>Featured Work</h1>
+        <div class="portfolio_item">
+            <article>
+                <div class="img_container">
+                    <img src="img/factory.jpg">
+                </div>
+                <h2>GitHub</h2>
+            </article>
+            <article>
+                <div class="img_container">
+                    <img src="img/typewriter-final.png">
+                </div>
+                <h2>Coding Blog</h2>
+            </article>
+            <article>
+                <div class="img_container">
+                    <img src="img/teacher-apple-final.png">
+                </div>
+                <h2>Stackoverflow</h2>
+            </article>
+        </div>
+    </div>
 </body>
 </html>
