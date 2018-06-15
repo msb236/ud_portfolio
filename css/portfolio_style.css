@@ -3,12 +3,15 @@
     box-sizing: border-box;
     max-width: 950px;
 }
+
 h1 {
     font-size: 20px;
 }
+
 h2 {
     font-size: 12px;
 }
+
 /********** HEADER BAR **********/
 header {
     display: flex;
@@ -17,17 +20,20 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 header .logo {
     max-width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 header .logo img {
     width: 100%;
     height: auto;
 
 }
+
 header .name {
     height: auto;
     text-align: center;
@@ -46,10 +52,10 @@ header .name {
     display: flex;
     position: relative;
     align-items: center;
-    /*justify-content: space-evenly;*/
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 .stack_box {
     height: 60px;
     width: 60px;
@@ -60,11 +66,11 @@ header .name {
     padding: 5px;
     text-align: center;
 }
+
 .stack img {
     height: 100%;
     width: auto;
 }
-
 
 /*** big picture ***/
 .the_pic {
@@ -83,6 +89,7 @@ header .name {
 .feature_work_title {
     display: block;
 }
+
 article {
     display: flex;
     flex-wrap: wrap;
@@ -91,18 +98,22 @@ article {
     padding-right: 30px;
     max-width: 350px;
 }
+
 article .title {
     display: block;
 }
+
 article .img_container {
     display: flex;
     position: relative;
     align-items: center;
 }
+
 article .img_container img {
     width: 100%;
     height: auto;
 }
+
 .portfolio_item {}
 @media only screen and (min-width: 316px) {
     /* intermediate-width viewport */
@@ -111,15 +122,18 @@ article .img_container img {
         justify-content: space-between;
         align-items: auto;
     }
+
     header .logo {
         padding-left: 15px;
         display: flex;
         position: relative;
     }
+
     header .name {
         text-align: right;
         padding-right: 15px;
     }
+
     .stack {
         justify-content: space-evenly;
     }
@@ -134,20 +148,25 @@ article .img_container img {
 @media only screen and (min-width: 475px) {
     /* intermediate to large-width viewport */
     h1 {font-size: 30px;}
+
     h2 {font-size: 20px;}
+
     .row {
         flex-direction: row;
         height: auto;
         max-height: 400px;
     }
+
     .stack {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
+
     .stack_box{
         height: 20%;
     }
+
     .the_pic img {
         max-height: 100%;
         max-width: 100%;
@@ -161,38 +180,34 @@ article .img_container img {
         display:block;
         margin:auto;
     }
+
     .portfolio_item {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    /*.stack .css3 {padding: 9px;}*/
+
     .col-1 {width: 20%;}
+
     .col-2 {width: 80%;}
+
     .col-3 {width: auto;}
 }
-
 @media only screen and (min-width: 600px) {
     /* intermediate to large-width viewport */
     .stack {
         flex: 0 0 120px;
     }
+
     .the_pic {
         flex: 1 1 auto;
     }
+
     article {
         max-width: 275px;
     }
-    .col-1 {width: auto;}
-    .col-2 {width: auto;}
-    /*.stack .css3 {padding: 9px;}*/
-}
 
-/* for dev / formatting only */
-/*
-.stack div {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    .col-1 {width: auto;}
+
+    .col-2 {width: auto;}
 }
-*/
